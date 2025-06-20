@@ -77,3 +77,11 @@ node server.js
 
 And use this URL to access the frontend of the application
 `http://localhost:3000/index.html`
+
+## Stop
+
+To gracefully stop the Docker container, use the following command:
+
+```bash
+docker stop test-mongo
+```
